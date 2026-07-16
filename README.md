@@ -1,4 +1,4 @@
-# 한국 왕쑥뜸 회 (Korean King Moxibustion Association) 웹사이트
+# 한국 왕쑥뜸 회 (Korean King Moxibustion Association) 웹사이트 
 
 이 프로젝트는 미국 뉴저지 클로스터에 위치한 **한국 왕쑥뜸 회**의 공식 소개 홈페이지입니다. Hugo와 Hugo Blox SaaS Landing Page 템플릿을 사용하여 구축되었습니다.
 
