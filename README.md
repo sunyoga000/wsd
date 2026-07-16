@@ -5,6 +5,7 @@
 ## 📄 문서 및 보고서
 - 📘 **[제작 매뉴얼 바로가기 (Project Manual)](doc/manual.md)**
 - 🛠️ **[문제 해결 보고서 바로가기 (Trouble Report)](doc/trouble_report.md)**
+- 🚀 **[Cloudflare Pages 자동 배포 가이드 (Deploy Guide)](doc/cloudflare_deploy.md)**
 
 ---
 
