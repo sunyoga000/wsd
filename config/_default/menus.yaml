@@ -1,0 +1,30 @@
+# Navigation Links
+#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
+#   The `weight` parameter defines the order that the links will appear in.
+
+main:
+  - name: 홈
+    url: /#top
+    weight: 10
+  - name: 매장 소개
+    url: /#about
+    weight: 20
+  - name: 프로그램 안내
+    url: /#services
+    weight: 30
+  - name: 오시는 길 & 예약
+    url: /#appointment
+    weight: 40
+
+# Footer links (simple layout)
+footer:
+  - name: 법적 고지
+    weight: 10
+  - parent: 법적 고지
+    name: 개인정보 처리방침
+    url: /privacy/
+    weight: 10
+  - parent: 법적 고지
+    name: 이용약관
+    url: /terms/
+    weight: 20
