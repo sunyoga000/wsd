@@ -62,15 +62,21 @@
 - **Stats 블록:** 30년 전통, 3-4배 효능, 1:1 맞춤 관리 수치 강조
 - **About Us 블록 (`cta-image-paragraph`):** 상세 매장 소개 글과 3대 신념 리스트 및 이미지 배치
 - **Services 블록 (`pricing`):** 프로그램 정보 및 가격($100, $200) 설정
-- **Location 블록 (`markdown`):** 오시는 길 주소 안내, 구글 지도 iframe 연동, 영업시간 및 사전예약 안내
+- **Location 블록 (`markdown`):** 오시는 길 주소 안내, 구글 지도 iframe 연동, 영업시간 및 사전예약 안내 (직통 전화: 201-290-7991)
+- **Photo Gallery 블록 (`photo-gallery`):** 실시간 수시 기록 사진 업로드 UI, 카테고리 필터링, 라이트박스 확대 뷰어
+- **Gemini AI Q&A 블록 (`faq-ai`):** FAQ 아코디언 및 실시간 Gemini AI 쑥뜸 전문 상담 채팅 위젯 연동
 
 ---
 
 ## 4. 사이트 유지보수 가이드
 
-1. **전화번호 변경:**
-   현재 설정된 임시 전화번호 `201-555-0199`를 실제 번호로 바꾸려면 다음 파일들에서 번호를 검색하여 수정해야 합니다.
+1. **전화번호 관리:**
+   현재 사이트 대표 전화번호는 **`201-290-7991`**로 설정되어 있습니다. 추후 전화번호 변경 필요 시 아래 파일들을 수정합니다.
    - [`config/_default/params.yaml`](file:///c:/Users/sunyo/OneDrive/Desktop/wsd/config/_default/params.yaml) (푸터 텍스트 및 SEO 연락처)
-   - [`content/_index.md`](file:///c:/Users/sunyo/OneDrive/Desktop/wsd/content/_index.md) (오시는 길 내부 전화번호 링크 `tel:`)
+   - [`content/_index.md`](file:///c:/Users/sunyo/OneDrive/Desktop/wsd/content/_index.md) (메인 CTA 및 오시는 길 전화번호 링크 `tel:`)
 2. **구글 맵 주소 변경:**
    [`content/_index.md`](file:///c:/Users/sunyo/OneDrive/Desktop/wsd/content/_index.md)의 `markdown` 블록 안 iframe 소스 주소(`src`) 중 `q=19%20Center%20St,%20Closter,%20NJ%252007624` 부분을 수정하고자 하는 새 주소의 URL 인코딩 형태로 변경해 줍니다.
+3. **수시 기록 사진 갤러리 관리:**
+   사이트 내 `기록 사진` 섹션에서 브라우저를 통해 직접 새로운 시술/재료/시설 사진을 드래그&드롭 및 파일 선택으로 수시로 등록할 수 있으며 LocalStorage 및 실시간 갤러리 Grid에 즉시 반영됩니다.
+4. **Gemini AI Q&A 시스템 관리:**
+   `질문 & Q&A` 섹션에서 방문자가 질문을 하면 Gemini AI 지식 엔진이 실시간으로 대답합니다. 우측 상단의 `⚙️ API Key 설정` 버튼으로 본인의 Google Gemini API Key를 입력하여 직접 호출할 수 있으며, 키가 지정되지 않아도 전용 쑥뜸 AI 지식엔진이 자동 응답합니다.

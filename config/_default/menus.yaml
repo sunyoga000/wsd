@@ -12,9 +12,15 @@ main:
   - name: 프로그램 안내
     url: /#services
     weight: 30
+  - name: 기록 사진
+    url: /#photo-gallery
+    weight: 35
   - name: 오시는 길 & 예약
     url: /#appointment
     weight: 40
+  - name: 질문 & Q&A
+    url: /#faq-ai
+    weight: 45
 
 # Footer links (simple layout)
 footer:

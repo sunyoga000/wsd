@@ -121,7 +121,7 @@ hugoblox:
     # Show social icons from identity.social.links
     show_social: false
     # Custom footer text (HTML supported)
-    text: "주소: 19 Center St, Closter, NJ 07624 | 예약 문의: 201-555-0199"
+    text: "주소: 19 Center St, Closter, NJ 07624 | 예약 문의: 201-290-7991"
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
@@ -154,7 +154,7 @@ hugoblox:
       coordinates:
         latitude: 40.9723
         longitude: -73.9615
-      phone: "+12015550199"
+      phone: "+12012907991"
     # AI/LLM crawler guidance (llms.txt)
     ai:
       allow:

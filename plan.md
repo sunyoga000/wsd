@@ -40,9 +40,10 @@
 ---
 
 ## 5. 📅 상담 및 예약 안내 (Appointment) & 푸터 정보
+- **직통 전화:** 201-290-7991
 - **영업시간:** 
   - 월요일 ~ 금요일: 오전 9시 ~ 오후 6시
   - 토요일, 일요일: '특별 예약제' 운영 (사전 전화 문의 필수)
-- **예약 방법:** 100% 사전 예약 및 상담을 통해 맞춤 관리가 진행되므로 방문 전 반드시 아래 직통 번호로 연락해 주시기 바랍니다.
+- **예약 방법:** 100% 사전 예약 및 상담을 통해 맞춤 관리가 진행되므로 방문 전 반드시 아래 직통 번호(201-290-7991)로 연락해 주시기 바랍니다.
 - **하단 푸터 (Footer) 문구:** 
-  © 2026 Korean King Moxibustion Association. All Rights Reserved. | 주소: 19 Center St, Closter, NJ 07624
+  © 2026 Korean King Moxibustion Association. All Rights Reserved. | 주소: 19 Center St, Closter, NJ 07624 | 예약 문의: 201-290-7991
